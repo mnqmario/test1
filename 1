@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="TITAN HOUSE" />
+    <meta name="description" content="TITAN HOUSE" />
+            <title>PLAN-TITAN HOUSE</title>
+    
+    <link rel="stylesheet" href="tpl/en_titanhouser/css/reset.css" />
+    <link rel="stylesheet" href="tpl/en_titanhouser/font/font.css" />
+    <link rel="stylesheet" href="tpl/en_titanhouser/css/style.css" />
+    <script type="text/javascript">
+        var ua = navigator.userAgent;
+        if (-1 < ua.indexOf('MSIE') || -1 < ua.indexOf('Trident')) {
+            var match = /(MSIE) ([\d]+)/.exec(ua) || /(rv:)([\d]+)/.exec(ua) || [];
+            document.documentElement.className = ('ie ie' + (match[2] || '11'));
+        }
+    </script>
+
+    <link rel="stylesheet" href="tpl/en_titanhouser/js/slider/flexslider.css">
+    <link rel="stylesheet" href="tpl/en_titanhouser/js/clients/lrtk.css">
+    
+    <script>
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-80591012-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body>
+    <div class="head_menu">
+
+        <div class="header">
+            <div class="top wrap">
+                <div class="top_search_input">
+                            <span>Total Area:</span>
+                            <select id="option1">
+                                <option value="">Please choose</option>
+                                                                                                                                                                                                                                <option value="381" >0-50 sqm</option>
+                                                                                    <option value="382" >51-150 sqm</option>
+                                                                                    <option value="383" >151-250 sqm</option>
+                                                                                    <option value="384" >251-350 sqm</option>
+                                                                                    <option value="395" >&gt;351 sqm</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
+                </div>
+                <div class="top_search_input">
+                    <span>Floors:</span>
+                    <select id="option2">
+                        <option value="">Please choose</option>
+                                                                                                                                                                                                                                    <option value="386" >1</option>
+                                                                    <option value="387" >2</option>
+                                                                    <option value="388" >3</option>
+                                                                    <option value="389" >≥4</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </select>
+                </div>
+                <div class="top_search_input">
+                    <span>Bedroom:</span>
+                    <select id="option3">
+                        <option value="">Please choose</option>
+                                                                                                                                                                                                                                                                                        <option value="391" >1</option>
+                                                                    <option value="392" >2</option>
+                                                                    <option value="393" >3</option>
+                                                                    <option value="394" >≥4</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </select>
+                </div>
+                <button type="submit" onclick="location.href='index.php?id=plans&ext[area]=' + document.getElementById('option1').value + '&ext[floor]=' + document.getElementById('option2').value + '&ext[bedrooms]=' + document.getElementById('option3').value">search all plans</button>
+                <span class="close_button"></span>
+            </div>
+        </div>
+        <div class="nav-top navgations">
+            <div class="menu-top menu proxima_nova_rgregular">
+                <ul>
+                    <div class="logo">
+                        <a href="/"><img src="tpl/en_titanhouser/images/logo.png" width="240" height="70" target="_blank" alt="Qingdao Titan Integrated House Co., Ltd. " /></a>
+                    </div>
+                                                                <li >
+                            <a class="hide" href="/">HOME</a>
+                        </li>
+                                            <li >
+                            <a class="hide" href="index.php?id=projects">PROJECT</a>
+                        </li>
+                                            <li class="current">
+                            <a class="hide" href="index.php?id=plans">PLAN</a>
+                        </li>
+                                            <li >
+                            <a class="hide" href="index.php?id=knowus">ABOUT US</a>
+                        </li>
+                                            <li >
+                            <a class="hide" href="index.php?id=design">SERVICE</a>
+                        </li>
+                                            <li >
+                            <a class="hide" href="index.php?id=news">NEWS</a>
+                        </li>
+                                            <li >
+                            <a class="hide" href="index.php?id=contact">CONTACT</a>
+                        </li>
+                                        <div class="search_link">
+                        <a href="javascript:void(0);"></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+            <div class="in_banner">
+            <div class="in_banner_pic">
+                <div class="in_banner_text">
+                                            <h4 class="proxima_nova_rgbold"><p>Every citizen in the world deserves</p><p>his own warm home.</p></h4>
+                                        <span class="inc_inc"></span>
+                </div>
+
+                                    <div class="top_banner proxima_novasemibold">
+                        <div class=" wrap">
+                            <div class="top_search_input">
+                                <span>Total Area:</span>
+                                <select id="option4">
+                                    <option value="">Please choose</option>
+                                                                                                                                                                                                                                                        <option value="381" >0-50 sqm</option>
+                                                                                            <option value="382" >51-150 sqm</option>
+                                                                                            <option value="383" >151-250 sqm</option>
+                                                                                            <option value="384" >251-350 sqm</option>
+                                                                                            <option value="395" >&gt;351 sqm</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
+                            </div>
+                            <div class="top_search_input">
+                                <span>Floors:</span>
+                                <select id="option5">
+                                    <option value="">Please choose</option>
+                                                                                                                                                                                                                                                                                                                                    <option value="386" >1</option>
+                                                                                            <option value="387" >2</option>
+                                                                                            <option value="388" >3</option>
+                                                                                            <option value="389" >≥4</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </select>
+                            </div>
+                            <div class="top_search_input">
+                                <span>Bedroom:</span>
+                                <select id="option6">
+                                    <option value="">Please choose</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                <option value="391" >1</option>
+                                                                                            <option value="392" >2</option>
+                                                                                            <option value="393" >3</option>
+                                                                                            <option value="394" >≥4</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </select>
+                            </div>
+                            <button type="submit" onclick="location.href='index.php?id=plans&ext[area]=' + document.getElementById('option4').value + '&ext[floor]=' + document.getElementById('option5').value + '&ext[bedrooms]=' + document.getElementById('option6').value">search all plans</button>
+                            <span class="close_button"></span>
+                        </div>
+                    </div>
+                
+                                    <img src="res/en/20151225/49ca781f911c6513.jpg" width="1920" height="550" alt="banner2" />
+                            </div>
+        </div>
+        <div class="in_body">
+        <div class="wrap">
+            <div class="inbody_title proxima_nova_rgbold wrapleft">
+                <h2>PLAN</h2></div>
+            <div class="inbody_title_text wrapleft">
+                <p>Our Architects in Titan House are focus to provide the ideal optimal house design for you. We will look into the expected requirements from you to design and detail the dream home to your satisfaction.</p>
+            </div>
+            <div class="inccate_list wrapleft">
+                                                                                <a href="/index.php?id=plans&cate=p1" class="">Bauhaus</a>
+                                            <a href="/index.php?id=plans&cate=p2" class="">Domus</a>
+                                            <a href="/index.php?id=plans&cate=p3" class="">Casas</a>
+                                                </div>
+
+<div class="in_content">
+    <div class="pro_piclist wrapleft">
+        <ul>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160831/3ce50ec9fcadabaa.jpg" width="340" height="220" alt="Reach for The Stars -- Titan Journey Home (TN-Casas 14)" />
+                        <span>
+                            <a href="/index.php?id=TN-Casas14" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Reach for The Stars -- Titan Journey Home (TN-Casas 14)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 18.92sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 1</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 1</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160728/395a8c6d033c9617.jpg" width="340" height="220" alt="Blanca in Palm Forest (TN-Bauhaus18)" />
+                        <span>
+                            <a href="/index.php?id=TN-Bauhaus18" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Blanca in Palm Forest (TN-Bauhaus18)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 90sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 2</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 2</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160728/513676824c658a98.jpg" width="340" height="220" alt="Travel with You -- Titan Well Designed Portable Tiny Home (TN-Casas13)" />
+                        <span>
+                            <a href="/index.php?id=TN-Casas13" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Travel with You -- Titan Well Designed Portable Tiny Home (TN-Casas13)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 12.47sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 1</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 1</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160506/656b8e71b13c8629.jpg" width="340" height="220" alt="Titan Self-build Green Steel Prefab Home Kits" />
+                        <span>
+                            <a href="/index.php?id=TN-Bauhaus17" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Titan Self-build Green Steel Prefab Home Kits (TN-Bauhaus17)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 90sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 2</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 2</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160505/92cb15283f9565e6.jpg" width="340" height="220" alt="Titan Industrial Style China Prefabricated Modular Kit Homes" />
+                        <span>
+                            <a href="/index.php?id=TN-Casas12" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Titan Industrial Style China Prefabricated Modular Kit Homes (TN-Casas12)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 148sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 2</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 2</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160504/408e25895f30820a.jpg" width="340" height="220" alt="3D MODEL-6" />
+                        <span>
+                            <a href="/index.php?id=TN-Bauhaus16" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Titan Modern Small Private Residence with 3 Bedrooms (TN-Bauhaus16)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 110sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 3</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 2</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160503/f713e7203cc5e4b9.jpg" width="340" height="220" alt="Titan Symmetric Style Single Floor Detached Villa with 2 Bedrooms" />
+                        <span>
+                            <a href="/index.php?id=TN-Bauhaus15" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Titan Symmetric Style Single Floor Detached Villa (TN-Bauhaus15)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 86sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 2</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 2</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160429/e86e144906393d10.jpg" width="340" height="220" alt="Titan Mediterranean Style Cold Formed Steel Structure Prefab Villa" />
+                        <span>
+                            <a href="/index.php?id=TN-Domus05" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Titan Mediterranean Style Cold Formed Steel Structure Villa (TN-Domus05)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 371.59sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 3</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 3</li>
+                    </ol>
+                </li>
+                            <li>
+                    <div class="pro_piclist_img">
+                        <img src="res/en/20160428/271fc9331c7f874d.jpg" width="340" height="220" alt="Titan Australia Standard Cold Rolled Steel Structure 3 Floor Building" />
+                        <span>
+                            <a href="/index.php?id=TN-Bauhaus14" target="_blank">Detailed Information</a>
+                        </span>
+                    </div>
+                    <div class="pro_piclist_title proxima_novasemibold wrapleft aGray333">
+                        <h5>Titan Australia Standard Cold Rolled Steel Structure 3 Floor Building (TN-Bauhaus14)</h5>
+                    </div>
+                    <ol class="plan_notelist">
+                        <li><span class="span_1 inc_inc"></span>Area: 512sqm</li>
+                        <li><span class="span_2 inc_inc"></span>Bedroom: 7</li>
+                        <li><span class="span_3 inc_inc"></span>Bathroom: 8</li>
+                    </ol>
+                </li>
+                    </ul>
+    </div>
+    <div id="pages" class=" proxima_novasemibold wrapleft">
+    <div class="green-black">
+        							<a href="/index.php?id=plans&cate=plan&"><</a>
+												 <span class="current">1</span>
+												<a href="/index.php?id=plans&cate=plan&pageid=2">2</a>
+												<a href="/index.php?id=plans&cate=plan&pageid=3">3</a>
+												<a href="/index.php?id=plans&cate=plan&pageid=4">4</a>
+												<a href="/index.php?id=plans&cate=plan&pageid=2">></a>
+					    </div>
+</div></div>
+</div>
+</div>
+<div class="home_contact">
+    <div class="wrap">
+        <ul class="home_procatelist">
+                                        
+                                                                <li><a href="index.php?id=projects" target="_blank">PROJECT</a>
+                        <ul>
+                                                            <li><a href="index.php?id=project&cate=c1" target="_blank">For Residence</a></li>
+                                                            <li><a href="index.php?id=project&cate=c2" target="_blank">For Commerce</a></li>
+                                                            <li><a href="index.php?id=project&cate=c3" target="_blank">For Public</a></li>
+                                                    </ul>
+                    </li>
+                                                                <li><a href="index.php?id=plans" target="_blank">PLAN</a>
+                        <ul>
+                                                            <li><a href="index.php?id=plans&cate=p1" target="_blank">Bauhaus</a></li>
+                                                            <li><a href="index.php?id=plans&cate=p2" target="_blank">Domus</a></li>
+                                                            <li><a href="index.php?id=plans&cate=p3" target="_blank">Casas</a></li>
+                                                    </ul>
+                    </li>
+                                                                <li><a href="index.php?id=knowus" target="_blank">ABOUT US</a>
+                        <ul>
+                                                            <li><a href="index.php?id=knowus" target="_blank">Who We Are</a></li>
+                                                            <li><a href="index.php?id=know2" target="_blank">What We Do</a></li>
+                                                            <li><a href="index.php?id=know3" target="_blank">How We Realize</a></li>
+                                                            <li><a href="index.php?id=know4" target="_blank">Which We Choose</a></li>
+                                                            <li><a href="index.php?id=downloads1" target="_blank">Download</a></li>
+                                                    </ul>
+                    </li>
+                                                                <li><a href="index.php?id=design" target="_blank">SERVICE</a>
+                        <ul>
+                                                            <li><a href="index.php?id=design" target="_blank">Customized Design</a></li>
+                                                            <li><a href="index.php?id=integration" target="_blank">Integration</a></li>
+                                                            <li><a href="index.php?id=Support" target="_blank">Construction Support</a></li>
+                                                            <li><a href="index.php?id=assurance" target="_blank">Trade Assurance</a></li>
+                                                    </ul>
+                    </li>
+                                                                <li><a href="index.php?id=news" target="_blank">NEWS</a>
+                        <ul>
+                                                            <li><a href="index.php?id=news&cate=s1" target="_blank">All</a></li>
+                                                            <li><a href="index.php?id=news&cate=s2" target="_blank">News</a></li>
+                                                            <li><a href="index.php?id=news&cate=s3" target="_blank">Knowledge</a></li>
+                                                    </ul>
+                    </li>
+                                            
+                                    </ul>
+        <div class="bottom_contactus">
+            <div class="bottom_contactus_text">
+                <h4><a href="index.php?id=contact"  target="_blank">Contact Us</a></h4>
+                <p>
+                    <span>Contact Person:</span> Mikayla Ma                    <br/>
+                    <span>Tel:</span> +86 532 67786164                    <br/>
+                    <span>Mobile & What’s app:</span> +86 18766236820                    <br/>
+                    <span>E-mail:</span> info@titanhouser.com                    <br/>
+                    <span>Address:</span> Qingdao, China
+                </p>
+            </div>
+            <div class="bottom_contactus_list">
+                <ul>
+                    <li>
+                        <a href="#" class="share_inc_g"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="share_inc_pin"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="share_inc_in"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="share_inc_f"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="share_inc_t"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/company/qingdao-titan-integrated-house-co.-ltd?trk=top_nav_home" class="share_inc_lin" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="share_inc_y"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="wrap">
+        <div class="footer_text aBlue">
+            <span>Copyright © 2015,Qingdao Titan Integrated House Co., Ltd. Bein Industrial Limted (Hk) All Rights Reserved.  </span>
+            <span class="fRight"><a href="http://www.hicheng.net" target="_blank">Powered by HiCheng</a></span>
+        </div>
+    </div>
+</div>
+<div class="online">
+    <a href="mailto:info@titanhouser.com" class="phone"><img src="tpl/en_titanhouser/images/online_phone.png"></a>
+    <a href="skype:mikayla.titanhouser?chat" class="skype"><img src="tpl/en_titanhouser/images/online_skype.png"></a>
+    <a href="#top" class="top"><img src="tpl/en_titanhouser/images/online_top.png"></a>
+</div>
+
+<script src="tpl/en_titanhouser/js/jquery-1.11.3.min.js"></script>
+
+
+<script type="text/javascript">
+    $(function() {
+
+        $('.close_button').click(function() {
+            var topheight = $('.header').css('height');
+            if (topheight == '0px') {
+                $('.header').animate({
+                    height: '138px'
+                });
+            } else {
+                $('.header').animate({
+                    height: '0px'
+                });
+            }
+        });
+    });
+</script><script src="tpl/en_titanhouser/js/jquery-1.11.3.min.js"></script>
+<script src="tpl/en_titanhouser/js/slider/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('.flexslider').flexslider();
+});
+</script>
+<script type="text/javascript" src="tpl/en_titanhouser/js/countup/countUp.js"></script>
+<script>
+function expernum() {
+    var getnum_1 = $('#num_1').attr('title');
+    var getnum_2 = $('#num_2').attr('title');
+    var getnum_3 = $('#num_3').attr('title');
+    var getnum_4 = $('#num_4').attr('title');
+    var options = {
+        useEasing: true,
+        useGrouping: true,
+        separator: ',',
+        decimal: '.',
+        prefix: '',
+        suffix: ''
+    };
+    var num_1 = new CountUp("num_1", 0, getnum_1, 0, 2.5, options);
+    num_1.start();
+    var num_2 = new CountUp("num_2", 0, getnum_2, 0, 2.5, options);
+    num_2.start();
+    var num_3 = new CountUp("num_3", 0, getnum_3, 0, 2.5, options);
+    num_3.start();
+    var num_4 = new CountUp("num_4", 0, getnum_4, 0, 2.5, options);
+    num_4.start();
+}
+</script>
+<!--/*home product piclist*/-->
+<script type="text/javascript" src="tpl/en_titanhouser/js/rollbox/recommendation.js"></script>
+<!--/*home Clients Scroll*/-->
+<script type="text/javascript" src="tpl/en_titanhouser/js/clients/common.js"></script>
+<script type="text/javascript">
+var ShowPre1 = new ShowPre({
+    box: "banner_index",
+    Pre: "banner_index_pre",
+    Next: "banner_index_next",
+    numIco: "index_numIco",
+    loop: 1,
+    auto: 1
+});
+</script>
+<script type="text/javascript">
+/*导航顶部搜索显示隐藏*/
+$(function() {
+    $('.search_link a').click(function() {
+        var topheight = $('.header').css('height');
+        if (topheight == '0px') {
+            $('.header').animate({
+                height: '138px'
+            });
+        } else {
+            $('.header').animate({
+                height: '0px'
+            });
+        }
+    });
+    $('.close_button').click(function() {
+        var topheight = $('.header').css('height');
+        if (topheight == '0px') {
+            $('.header').animate({
+                height: '138px'
+            });
+        } else {
+            $('.header').animate({
+                height: '0px'
+            });
+        }
+    });
+    $('.close_button').click(function() {
+        var topheight = $('.header').css('height');
+        if (topheight == '0px') {
+            $('.header').animate({
+                height: '138px'
+            });
+        } else {
+            $('.header').animate({
+                height: '0px'
+            });
+        }
+    });
+    /*顶部搜索*/
+    $('.online .top').click(function() {
+        $('html,body').animate({
+            scrollTop: '0'
+        }, 800);
+    });
+    /*下拉网页导航条变换样式*/
+    $(function() {
+        /*首页和内页的焦点图高度不同，这里高度有修改if (scrollY > 680)*/
+        $(window).scroll(function() {
+            var scrollY = $(document).scrollTop(); // 获取垂直滚动的距离，即滚动了多少
+            if (scrollY > 580) { //如果滚动距离大于680px则隐藏，否则删除隐藏类
+                $('.nav-top').removeClass('navgations');
+                $('.nav-top').addClass('navgations_two');
+                $('.menu-top').removeClass('menu');
+                $('.menu-top').addClass('menu_two');
+                $('.logo img').attr('src', 'tpl/en_titanhouser/images/logo2.png');
+            } else {
+                $('.nav-top').removeClass('navgations_two');
+                $('.nav-top').addClass('navgations');
+                $('.menu-top').removeClass('menu_two');
+                $('.menu-top').addClass('menu');
+                $('.logo img').attr('src', 'tpl/en_titanhouser/images/logo.png');
+            }
+
+            /*首页文字变化，页面滚动到相应位置再开始变化*/
+            if (scrollY == 300) {
+                expernum();
+            }
+        });
+    });
+
+    /*首页plan 遮罩效果*/
+
+    $('.home_plan_list li').hover(function(e) {
+        $(this).find('.home_plan_img a').animate({
+            opacity: '1'
+        });
+    }, function() {
+        $(this).find('.home_plan_img a').animate({
+            opacity: '0'
+        });
+    });
+    /*Online*/
+    $('.erweima').hover(function() {}, function() {
+        $('.online_erweima').animate({
+            width: '0px',
+            opacity: '0'
+        });
+    });
+    $('.phone').hover(function() {
+        $('.online_phone_num').animate({
+            width: '150px',
+            opacity: '1'
+        });
+    }, function() {
+        $('.online_phone_num').animate({
+            width: '0px',
+            opacity: '0'
+        });
+    });
+
+    /*项目列表页 遮罩效果*/
+    $('.pro_piclist li').hover(function() {
+        $(this).find('.pro_piclist_img span').animate({
+            top: '0px'
+        });
+    }, function() {
+        $(this).find('.pro_piclist_img span').animate({
+            top: '220px'
+        });
+    });
+
+});
+</script>
+
